@@ -1,4 +1,4 @@
-# Package
+# Package desc and build file
 
 version     = "0.1.0"
 author      = "Andrea Manzini"
@@ -16,6 +16,7 @@ let python = "python3"
 # build tasks
 
 before demo:
+  # install dependencies
   exec "nimble install -d"
   echo "building"
   # Operating Systems.
